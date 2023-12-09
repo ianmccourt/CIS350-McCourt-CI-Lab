@@ -15,4 +15,13 @@ def test_calc_multiplication():
 def test_calc_division():
 	output = divide_numbers(10, 2)
 	assert output == 5
-	
+
+def test_calc_power():
+    output = power_numbers(3,2)
+    assert output == 9
+
+def test_calc_mod():
+    output = mod_numbers(25, 7)
+    assert output == 4
+
+
